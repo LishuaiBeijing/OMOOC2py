@@ -8,6 +8,5 @@
   + [极简python入门](_src/om2py0w/0wex0/main.py)
   + [笨办法-打印](_src/hardway/p1/print.py)
 - [素材 (draft)](draft/README.md)
-  + [教程该怎么写](draft/how2tutorial.md)
-  + [琐碎到学习点](draft/next2learn.md)
+  + [琐碎的学习点](draft/next2learn.md)
 - [有关](ABOUT.md)
