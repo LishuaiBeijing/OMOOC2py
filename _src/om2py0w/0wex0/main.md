@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+    # -*- coding: utf-8 -*-
 
     import os
     
@@ -18,21 +18,21 @@
         for i in food:
             print i
 
-def foo(pa,secondpa):
-    res = pa+secondpa
-    print '%s plus %s is %s'%(pa,secondpa,res)
-    if res<50:
-        print "zhege"
-    elif (res>=50) and ((pa==42) or (secondpa==24)):
-        print "nage"
-    else:
-        print "En..."
-    return res  
-    '''multi-line 
-comments '''
-
-if __name__=='__main__':
-    main()
+    def foo(pa,secondpa):
+        res = pa+secondpa
+        print '%s plus %s is %s'%(pa,secondpa,res)
+        if res<50:
+            print "zhege"
+        elif (res>=50) and ((pa==42) or (secondpa==24)):
+            print "nage"
+        else:
+            print "En..."
+        return res  
+        '''multi-line 
+    comments '''
+    
+    if __name__=='__main__':
+        main()
 
 
     
