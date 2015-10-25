@@ -1,23 +1,22 @@
 # -*- coding: utf-8 -*-
-# python tutorial
 
-import os
-
-def main():
-    print "Hello World!"
-    print "zheshi Bob\'de wenhou"
-
-    foo(5,10)
-
-    print '*' * 10
-    print "this will execute " + os.getcwd()
-   
-    counter = 0
-    counter += 1
-
-    food = {'apple','xingzi','lizi','li'}
-    for i in food:
-        print i
+    import os
+    
+    def main():
+        print "Hello World!"
+        print "zheshi Bob\'de wenhou"
+    
+        foo(5,10)
+    
+        print '*' * 10
+        print "this will execute " + os.getcwd()
+       
+        counter = 0
+        counter += 1
+    
+        food = {'apple','xingzi','lizi','li'}
+        for i in food:
+            print i
 
 def foo(pa,secondpa):
     res = pa+secondpa
@@ -34,6 +33,8 @@ comments '''
 
 if __name__=='__main__':
     main()
+
+
     
     
     
