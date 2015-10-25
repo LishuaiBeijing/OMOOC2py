@@ -6,5 +6,9 @@
     "plugins": [
         "disqus"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "disqus": {
+           "shortName": "NAME-FROM-DISQUS"
+        }
+    }
 }
