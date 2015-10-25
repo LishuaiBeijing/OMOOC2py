@@ -7,6 +7,8 @@
         "disqus"
     ],
     "pluginsConfig": {
-        "shortName": "lishuaibeijing"
+        "disqus": {
+            "shortName": "lishuaibeijing"
+        }
     }
 }
