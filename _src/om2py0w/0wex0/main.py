@@ -5,7 +5,7 @@ import os
 
 def main():
     print "Hello World!"
-    print "zheshi Bob\'de wenhou"
+    print "这是 Bob\'的问候"
 
     foo(5,10)
 
