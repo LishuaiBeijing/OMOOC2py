@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+# 简单的网络式交互日记本 -- 服务端
+
+import diary_func.py
+import socket
+
+host = ''
+port = 50007
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.bind((host, port))
+s.listen(1)
+conn, addr = s.accept()  # 监听指定端口的信息，收到信息则执行下面的代码
+
+diary_file = open("diary",'a')
+inputdiary(diary_file)
+printdiary(diary_file)
+diary_file.close() 
