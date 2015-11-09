@@ -12,6 +12,7 @@ print_two("Zed","Shaw")
 ####################
 ## 按行读文件
 ####################
+
 from sys import argv
 script, input_file = argv
 def print_all(f):
